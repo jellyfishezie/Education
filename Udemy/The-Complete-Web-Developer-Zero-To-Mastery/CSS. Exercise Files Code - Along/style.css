@@ -3,14 +3,14 @@
 }*/
 
 * {
-	text-align: right;
+	text-align: left;
 }
 
 body {
 	background-image: url(backgroundimage.jpg);
 	background-size: cover;}
 
-h2 p {
+p {
 	color: #AA4139;
 	text-align: center;
 	border: 5px solid rgb(255, 176, 170, 0.5);
@@ -18,10 +18,21 @@ h2 p {
 }
 
 p {
-	color: pink;
+	line-height: 20px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 180%;
+	font-family: 'Poiret One', cursive;
 }
 
-p {color: green;}
+img {
+	float: left;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}
 
 li {
 	list-style: none;
