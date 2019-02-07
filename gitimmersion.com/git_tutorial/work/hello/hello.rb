@@ -1,4 +1,4 @@
-# This is an unwanted but comitted change
+# Default is "World"
 name = ARGV.first || "World"
 
 
