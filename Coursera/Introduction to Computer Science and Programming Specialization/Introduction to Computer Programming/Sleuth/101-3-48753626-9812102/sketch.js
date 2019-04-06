@@ -51,6 +51,19 @@ function draw()
 	image(img,0,0);
 
 	//Write your code below here ...
-
-
+    fill(255,0,0);
+    stroke(255,255,0);
+    rect(220,240,285,600);
+    
+    fill(255,255,0);
+    stroke(0,255,0);
+    rect(1000,490,220,300);
+    
+    fill(0,255,255);
+    stroke(255,255,0);
+    rect(1310,360, 210,430);
+    
+    fill(255,0,255);
+    stroke(0,0,255);
+    rect(1720,280, 290,620);
 }
