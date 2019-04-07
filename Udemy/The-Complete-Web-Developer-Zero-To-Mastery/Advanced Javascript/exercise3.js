@@ -1,19 +1,21 @@
 // change everything below to the newer Javascript!
 
 // let + const
-var a = 'test';
-var b = true;
-var c = 789;
-a = 'test2';
+var a = 'test'; //let
+var b = true; //const
+var c = 789; //const
+a = 'test2'; 
 
 
 // Destructuring
-var person = {
+var person = { //const person
     firstName : "John",
     lastName  : "Doe",
     age       : 50,
     eyeColor  : "blue"
 };
+
+// const {firstName, lastName, age, eyeColor} = person;
 
 var firstName = person.firstName;
 var lastName = person.lastName;
@@ -22,11 +24,11 @@ var eyeColor = person.eyeColor;
 
 
 // Object properties
-var a = 'test';
-var b = true;
-var c = 789;
+var a = 'test'; //const
+var b = true; //const
+var c = 789; //const
 
-var okObj = {
+var okObj = { //const
   a: a,
   b: b,
   c: c
@@ -45,7 +47,7 @@ function isValidAge(age) {
 
 // Symbol
 // Create a symbol: "This is my first Symbol"
-
+const sym = Symbol('This is my first Symbol');
 // Arrow functions
 function whereAmI(username, location) {
     if (username && location) {
