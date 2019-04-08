@@ -28,18 +28,20 @@ var rockyKrayObj;
 
 
 //declare your new objects below
+var pawelKarpinskiObj;
+var cecilKarpinskiObj;
+var linaLovelaceObj;
+var annaKarpinskiObj;
+var countessHamiltonObj;
 
-
-var cecilKarpinskiXPos = 115;
-var cecilKarpinskiYPos = 40;
-var linaLovelaceXPos = 408;
-var linaLovelaceYPos = 40;
-var annaKarpinskiXPos = 701;
-var annaKarpinskiYPos = 40;
-var countessHamiltonXPos = 115;
-var countessHamiltonYPos = 309;
-var pawelKarpinskiXPos = 701;
-var pawelKarpinskiYPos = 309;
+//var cecilKarpinskiXPos = 115;
+//var cecilKarpinskiYPos = 40;
+//var linaLovelaceXPos = 408;
+//var linaLovelaceYPos = 40;
+//var annaKarpinskiXPos = 701;
+//var annaKarpinskiYPos = 40;
+//var countessHamiltonXPos = 115;
+//var countessHamiltonYPos = 309;
 
 
 function preload()
@@ -66,6 +68,36 @@ function setup()
 
 
 	//define your new objects below
+    
+    pawelKarpinskiObj = {
+        x: 701,
+        y: 309,
+        image: pawelKarpinskiImage
+    };
+    
+    cecilKarpinskiObj = {
+      x: 115,
+      y: 40,
+      image: cecilKarpinskiImage
+    };
+    
+    linaLovelaceObj = {
+        x: 408,
+        y: 40,
+        image: linaLovelaceImage
+    };
+    
+    annaKarpinskiObj = {
+        x: 701,
+        y: 40,
+        image: annaKarpinskiImage
+    };
+    
+    countessHamiltonObj = {
+      x: 115,
+      y: 309,
+      image: countessHamiltonImage
+    };
 }
 
 function draw()
@@ -73,12 +105,12 @@ function draw()
 	image(photoBoard, 0, 0);
 
 	//And update these image commands with your x and y coordinates.
-	image(cecilKarpinskiImage, cecilKarpinskiXPos, cecilKarpinskiYPos);
-	image(linaLovelaceImage, linaLovelaceXPos, linaLovelaceYPos);
-	image(annaKarpinskiImage, annaKarpinskiXPos, annaKarpinskiYPos);
-	image(countessHamiltonImage, countessHamiltonXPos, countessHamiltonYPos);
+	image(cecilKarpinskiObj.image, cecilKarpinskiObj.x, cecilKarpinskiObj.y);
+	image(linaLovelaceObj.image, linaLovelaceObj.x, linaLovelaceObj.y);
+	image(annaKarpinskiObj.image, annaKarpinskiObj.x, annaKarpinskiObj.y);
+	image(countessHamiltonObj.image, countessHamiltonObj.x, countessHamiltonObj.y);
 	image(rockyKrayObj.image, rockyKrayObj.x, rockyKrayObj.y);
-	image(pawelKarpinskiImage, pawelKarpinskiXPos, pawelKarpinskiYPos);
+	image(pawelKarpinskiObj.image, pawelKarpinskiObj.x, pawelKarpinskiObj.y);
 
 
 }
