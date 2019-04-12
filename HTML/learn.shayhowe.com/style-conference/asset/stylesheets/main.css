@@ -69,6 +69,27 @@ Grid
 }
 
 /*
+=============================
+Clearfix
+==============================
+*/
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	clear: both;
+	*zoom: 1;
+}
+
+/*
 =======================
 Typography
 =======================
@@ -94,3 +115,20 @@ Buttons
 	border: 1px solid #dfe2e5;
 	padding: 10px 30px;
 }
+
+/*
+===========================
+Home
+===========================
+*/
+
+.hero {
+	padding: 22px 80px 66px 80px;
+}
+
+/*
+	============================
+	Primary header
+	============================
+*/
+
