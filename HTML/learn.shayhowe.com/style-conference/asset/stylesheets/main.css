@@ -181,6 +181,14 @@ h5 {
 	text-transform: uppercase;
 }
 
+strong {
+	font-weight: 400;
+}
+cite, 
+em {
+	font-style: italic;
+}
+
 /*
 =================================
 Leads
@@ -195,12 +203,6 @@ Leads
 	line-height: 33px;
 }
 
-strong {
-	font-weight: 400;
-}
-cite, em {
-	font-style: italic;
-}
 
 /*
 ===================
@@ -222,6 +224,14 @@ p a {
 	border-bottom: 1px solid #dfe2e5;
 }
 
+.primary-header a,
+.primary-footer a {
+	color: #fff;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+	color: #648880;
+}
 /*
 =======================
 Buttons
@@ -279,26 +289,7 @@ Buttons
 	text-transform: uppercase;
 }
 
-.primary-footer {
-	color: #648880;
-	font-size: 14px;
-	padding-bottom: 44px;
-	padding-top: 44px;
-}
 
-.primary-footer small {
-	float: left;
-	font-weight: 400;
-}
-
-.primary-header a,
-.primary-footer a {
-	color: #fff;
-}
-.primary-header a:hover,
-.primary-footer a:hover {
-	color: #648880;
-}
 
 /*
 Navigation
@@ -320,6 +311,18 @@ Primary footer
 
 .primary-footer small {
 	float: left;
+}
+
+.primary-footer {
+	color: #648880;
+	font-size: 14px;
+	padding-bottom: 44px;
+	padding-top: 44px;
+}
+
+.primary-footer small {
+	float: left;
+	font-weight: 400;
 }
 
 
