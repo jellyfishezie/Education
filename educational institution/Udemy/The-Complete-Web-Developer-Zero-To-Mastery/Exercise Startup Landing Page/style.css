@@ -1,0 +1,55 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-size: 100%;
+}
+
+.textCenter {
+	text-align: center;
+}
+
+.title {
+	position: absolute;
+	bottom: 58%;
+	width: 100%;
+	color: #FFF;
+}
+
+.wrapper {
+	text-align: center;
+}
+
+.button {
+	border: 0;
+	line-height: 2.5;
+	padding: 0 20px;
+	font-size: 1rem;
+	text-align: center;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #000;
+	border-radius: 10px;
+	background-color: rgb(244,95,66);
+	box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    position: absolute;
+    bottom: 35%;
+    left: 43%;
+
+}
+.button:hover {
+	background-color: rgb(244,109,66);
+}
+
+.button:active {
+	box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
