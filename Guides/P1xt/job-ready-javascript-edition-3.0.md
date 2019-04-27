@@ -33,7 +33,7 @@ A guide primarily focused on Frontend development, but including just enough of 
 **Goal:** Become Proficient with HTML, CSS and JavaScript.
 - [x]  Course: [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/) 
 - [x]  Course: [Learn to Code Advanced HTML & CSS](http://learn.shayhowe.com/advanced-html-css/)  
-- [ ]  Book: [Eloquent JavaScript](https://eloquentjavascript.net/)
+- [x]  Book: [Eloquent JavaScript](https://eloquentjavascript.net/)
 - [ ]  Project: Create a web page using [this theme](https://blackrockdigital.github.io/startbootstrap-landing-page/) as your inspiration, include all features (hover effects, animations, etc)
 - [ ]  Book: [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)
 - [ ]  Project: Create a web page using [this theme](https://blackrockdigital.github.io/startbootstrap-agency/) as your inspiration, include all features (hover effects, animations, etc)  
