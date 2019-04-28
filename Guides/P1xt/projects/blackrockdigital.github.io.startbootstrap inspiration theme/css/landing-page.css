@@ -4,4 +4,24 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
  */
 
- 
+ body {
+     font-family: 'Lato', 'Helvetica Neue,' Helvetica, Arial, sans-serif;
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-family: 'lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ }
+
+ header.masthead {
+     position: relative;
+     background-color: #343a40;
+     background: url("../img/bg-masthead.jpg") no-repeat center center;
+     background-size: cover;
+     padding-top: 8rem;
+     padding-bottom: 8rem;
+ }
